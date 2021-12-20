@@ -1,0 +1,57 @@
+INTRODUCTION
+##################################################################
+
+MeatMonitor can be used by any user on MacOSX, Windows, or Linux. However, certain features are only available in MacOSX like Restart. 
+If a user encounters any potential errors, the errors will be seen in the python console. Please see the remainder of the file for more specific information on installation and set up. 
+Moreover, if you are using Windows or Linux, the dimensions of each label in Tkinter are subject to alteration based on the user's resolution. 
+
+INSTALLATION AND USAGE
+##################################################################
+
+To use the application you must install the following:
+
+•pandas library
+–To install the pandas library, open the command prompt (in a Windows OS) or the terminal (in a MacOS) and type pip install pandas into the command line interface. 
+
+–If all goes well, you should get as successfully installed numpy pandas message
+
+–In the event that this is not working for you, this resource has a plethora of different methods you can try:https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+
+–It should be noted that the numpy module also gets installed when pandas is installed.
+
+-This is used to read the csv file. Numpy is also used in the data but is not widely used therefore not included.
+
+•matplotlib library
+–Similar to installing the pandas library, to install matplotlib, open the command prompt (in a WindowsOS) or the terminal (in a Mac OS) and type pip install matplotlib into the command line interface.
+
+–If all goes well, you should get a successfully installed matplotlib message
+
+–In the event that this is not working for you, this resource has a plethora of different methods you can try:https://matplotlib.org/3.3.3/users/installing.html
+
+-Used to create graphs for the user to understand their impact on the environment.
+
+•TkInter library
+–The TkInter library is a built in python library, so you shouldn’t need to install anything extra.
+
+–However, if our program is not running for you, that may mean that the version of TkInter you currently have on your computer may be outdated.
+
+–Please visit https://tkdocs.com/tutorial/install.htmland follow the instructions for your operating system.
+
+- Used to create a GUI.
+
+•PyTA
+- Used to test code. Not particularly relevant to the user unless they wish to modify the program and check their work. See https://www.cs.toronto.edu/~david/pyta/
+
+Now you may open main.py in your IDE of choice and run the file. The GUI should appear, else any potential errors causing issues will be seen in the console. 
+
+Data Sets
+##################################################################
+
+•Datasets
+–The link to download the dataset we used is:https://ourworldindata.org/grapher/per-capita-meat-consumption-by-type-kilograms-per-year
+
+EXTRA FUNCTION INFORMATION
+##################################################################
+
+•Restart Button
+–If a user wants to use the restart button, the user must be using MacOS.
